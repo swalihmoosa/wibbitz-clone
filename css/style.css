@@ -1,0 +1,1392 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1280px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+section#home{
+	margin-bottom: 150px;
+}
+section#home header{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0;
+	align-items: center;
+	margin-bottom: 75px;
+}
+section#home header h1{
+	width: 150px;
+}
+section#home header h1 a{
+	width: 100%;
+	display: block;
+}
+section#home header h1 a img{
+	width: 100%;
+	display: block;
+}
+section#home header nav.left{
+}
+section#home header nav.left ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#home header nav.left ul li{
+	margin-right: 50px;
+}
+section#home header nav.left ul li:last-child{
+	margin-right: 0px;
+}
+section#home header nav.left ul li a{
+	font-weight: 700;
+}
+section#home header nav.right{
+}
+section#home header nav.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#home header nav.right ul li{
+	margin-right: 50px;
+}
+section#home header nav.right ul li:last-child{
+	margin-right: 0px;
+}
+section#home header nav.right ul li a{
+	font-weight: 700;
+}
+section#home header nav.right ul li a.button{
+	background: green;
+	color: #fff;
+	padding: 10px 25px;
+	border-radius: 10px;
+}
+section#spot{
+	width: 100%;
+}
+section#spot section.top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px;
+}
+section#spot section.top section.left{
+	width: 50%;
+}
+section#spot section.top section.left h3{
+	font-size: 50px;
+	font-weight: 700;
+	margin: 25px 0 50px;
+}
+section#spot section.top section.left p{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	width: 65%;
+}
+section#spot section.top section.left form{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+section#spot section.top section.left form input[type="email"]{
+	width: 75%;
+	padding: 15px 0 15px 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	height: 100%;
+}
+section#spot section.top section.left form input[type="submit"]{
+	background: blue;
+	color: #fff;
+	width: 30%;
+	border-radius: 10px;
+	position: absolute;
+	padding: 15px 25px;
+	left: 70%;
+	height: 100%;
+}
+section#spot section.top section.right{
+	width: 50%;
+}
+section#spot section.top section.right img{
+	width: 100%;
+}
+section#spot section.bottom{
+	text-align: center;
+}
+section#spot section.bottom h3{
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+section#spot section.bottom ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#spot section.bottom ul li{
+	margin: auto 0;
+}
+section#spot section.bottom ul li img{
+	width: 100%;
+	display: block;
+}
+section#custom{
+}
+section#custom section.content{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px;
+	padding: 50px;
+}
+section#custom section.content section.left{
+	width: 50%;
+}
+section#custom section.content section.left img{
+	width: 100%;
+}
+section#custom section.content section.right{
+	width: 40%;
+}
+section#custom section.content section.right div.up{
+	width: 60px;
+	padding: 10px;
+	border-radius: 40%;
+	margin-bottom: 30px;
+	box-shadow: 0 16px 20px 0 rgb(27 30 41 / 8%);
+}
+section#custom section.content section.right div.up.o{
+	background: #ff784b;
+}
+section#custom section.content section.right div.up.w{
+	background: #ffc837;
+}
+section#custom section.content section.right div.up.t{
+	background: #3cd278;
+}
+section#custom section.content section.right div.up img{
+	width: 100%;
+}
+section#custom section.content section.right h3{
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+section#custom section.content section.right p.cust{
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+section#custom section.content section.right a.button{
+	background: blue;
+	color: #fff;
+	padding: 15px 25px;
+	font-weight: 700;
+	border-radius: 10px;
+	display: block;
+	width: 150px;
+	margin-bottom: 30px;
+}
+section#custom section.content section.right hr.line{
+	border-top: 2px dotted #000;
+	margin-bottom: 30px;
+	width: 50%;
+}
+section#custom section.content section.right p{
+	margin-bottom: 20px;
+}
+section#custom section.content section.right h4{
+	margin-bottom: 30px;
+}
+section#custom section.content section.right h4 b{
+	font-weight: 700;
+}
+section#custom section.content section.right div.bottom{
+	width: 100px;
+}
+section#custom section.content section.right div.bottom img{
+	width: 100%;
+	display: block;
+}
+section#custom section.content.bg{
+	background: #f8f8f8;
+}
+section#video{
+	margin-bottom: 100px;
+}
+section#video h3{
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	width: 40%;
+}
+section#video ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#video ul li{
+	width: 32%;
+	position: relative;
+}
+section#video ul li div.top{
+	margin-bottom: 20px;
+}
+section#video ul li div.top div.play{
+	width: 70px;
+	background: #fff;
+	position: absolute;
+	top: 5%;
+	border-radius: 50%;
+	padding: 27px;
+	left: 80%;
+}
+section#video ul li div.top div.play img{
+	width: 100%;
+	display: block;
+	border-radius: 0;
+}
+section#video ul li div.top img{
+	width: 100%;
+	display: block;
+	border-radius: 10px;
+}
+section#video ul li div.top div.log{
+	width: 100px;
+	background: #fdfdfd;
+	position: absolute;
+	top: 66%;
+	left: 5%;
+	height: 50px;
+	align-items: center;
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+section#video ul li div.top div.log img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+section#video ul li div.bottom{
+}
+section#video ul li div.bottom h4{
+	font-size: 20px;
+	font-weight: 700;
+}
+section#photo{
+	margin-bottom: 100px;
+}
+section#photo ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#photo ul li{
+	width: 45%;
+	position: relative;
+}
+section#photo ul li div.top{
+	width: 100%;
+	margin-bottom: 30px;
+}
+section#photo ul li div.top img{
+	width: 100%;
+	border-radius: 10px;
+}
+section#photo ul li div.top div.logo{
+	width: 100px;
+	position: absolute;
+	background: #fdfdfd;
+	top: 57%;
+	left: 8%;
+	border-radius: 10px;
+	align-items: center;
+}
+section#photo ul li div.top div.logo.hog{
+	padding: 5px 20px;
+}
+section#photo ul li div.top div.logo.bet{
+	padding: 10px;
+}
+section#photo ul li div.top div.logo img{
+	width: 100%;
+	display: block;
+	border-radius: 0;
+}
+section#photo ul li div.bottom p{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+section#photo ul li div.bottom h4{
+	font-weight: 700;
+}
+section#photo ul li div.bottom p.job{
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+section#photo ul li div.bottom h5{
+	font-weight: 700;
+}
+section#market{
+	margin-bottom: 100px;
+	background: #f8f8f8;
+	text-align: center;
+	padding: 50px 0;
+}
+section#market h3{
+	margin: 0 auto 50px;
+	font-size: 40px;
+	font-weight: 700;
+	width: 50%;
+}
+section#market ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+section#market ul hr.line{
+	border-right: 2px dotted #c3c3c3;
+}
+section#market ul li{
+	width: 30%;
+	padding: 10px;
+}
+section#market ul li div.top{
+	margin-bottom: 30px;
+	width: 100%;
+}
+section#market ul li div.top img{
+	width: 100%;
+	display: block;
+}
+section#market ul li div.bottom{
+}
+section#market ul li div.bottom h4{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+section#market ul li div.bottom p{
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+section#market div.star{
+	background: #d0deff;
+	position: relative;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 25px;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 16px 20px 0 rgb(27 30 41 / 8%);
+}
+section#market div.star div.image{
+	width: 40px;
+	background: #fff;
+	position: absolute;
+	top: -15px;
+	left: 25px;
+	box-shadow: 0 16px 20px 0 rgb(27 30 41 / 8%);
+	border-radius: 45%;
+	padding: 10px;
+}
+section#market div.star img{
+	width: 100%;
+	display: block;
+	background: #fff;
+}
+section#market div.star p{
+	width: 65%;
+}
+section#market div.star a.button{
+	width: 30%;
+	background: blue;
+	color: #fff;
+	font-weight: 700;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+section#solutions{
+	margin-bottom: 100px;
+}
+section#solutions section.top{
+	text-align: center;
+}
+section#solutions section.top h3{
+	font-size: 44px;
+	font-weight: 700;
+	width: 50%;
+	margin: 0 auto 50px ;
+}
+section#solutions section.top ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#solutions section.top ul li{
+	width: 30%;
+	padding: 25px;
+	border-radius: 10px;
+	margin-bottom: 150px;
+	position: relative;
+}
+section#solutions section.top ul li.one{
+	background: #d0deff;
+}
+section#solutions section.top ul li.two{
+	background: #d8e6f4;
+}
+section#solutions section.top ul li.three{
+	background: #ffe4db;
+}
+section#solutions section.top ul li div.image{
+	width: 65px;
+	height: 65px;
+	background: #fff;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 35%;
+	align-items: center;
+}
+section#solutions section.top ul li div.image img{
+	width: 100%;
+	display: block;
+}
+section#solutions section.top ul li h4{
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+section#solutions section.top ul li p{
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+section#solutions section.top ul li a.button{
+	color: #fff;
+	margin: 0 auto 250px;
+	display: block;
+	width: 50%;
+	padding: 15px 25px;
+	font-weight: 700;
+	border-radius: 10px;
+}
+section#solutions section.top ul li.one a.button{
+	background: blue;
+}
+section#solutions section.top ul li.two a.button{
+	background: yellow;
+}
+section#solutions section.top ul li.three a.button{
+	background: orange;
+}
+section#solutions section.top ul li div.img{
+	position: absolute;
+	top: 60%;
+	left: 7%;
+}
+section#solutions section.top ul li div.img img{
+	width: 100%;
+	display: block;
+}
+section#solutions section.bottom{
+	margin-bottom: 30px;
+}
+section#solutions section.bottom h3{
+	font-size: 44px;
+	font-weight: 700;
+	width: 40%;
+	text-align: left;
+	margin-bottom: 50px;
+}
+section#solutions section.bottom ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+section#solutions section.bottom ul li{
+	width: 30%;
+}
+section#solutions section.bottom ul li div.top{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+section#solutions section.bottom ul li div.top img{
+	width: 100%;
+	display: block;
+	border-radius: 10px;
+}
+section#solutions section.bottom ul li div.bottom{
+}
+section#solutions section.bottom ul li div.bottom h4{
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+section#solutions section.bottom ul li div.bottom h4:hover{
+	color: blue;
+}
+section#solutions section.bottom ul li div.bottom p{
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+section#solutions section.bottom ul li div.bottom a{
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+section#solutions a.buttonb{
+	background: blue;
+	color: #fff;
+	display: block;
+	width: 20%;
+	margin: 0 auto 30px ;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 15px 15px;
+	text-align: center;
+	border-radius: 10px;
+}
+section#black{
+	background: #000;
+	padding: 50px 0;
+}
+section#black section.top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+section#black section.top section.left{
+	width: 45%;
+}
+section#black section.top section.left h3{
+	font-size: 40px;
+	font-weight: 700;
+	width: 50%;
+	margin-bottom: 20px;
+	color: #fff;
+}
+section#black section.top section.left p{
+	margin-bottom: 20px;
+	font-weight: 500;
+	color: #fff;
+}
+section#black section.top section.left hr.line{
+	border-top: 1px dotted #fff;
+	width: 50%;
+	margin-bottom: 20px;
+}
+section#black section.top section.left h4{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #fff;
+}
+section#black section.top section.left p.quote{
+	font-weight: 700;
+	color: #fff;
+}
+section#black section.top section.left h5{
+	font-weight: 700;
+	font-size: 15px;
+	color: #fff;
+}
+section#black section.top section.left p.job{
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+}
+section#black section.top section.left ul{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	margin-bottom: 30px;
+}
+section#black section.top section.left ul li{
+}
+section#black section.top section.left ul li div{
+	width: 40px;
+	border-radius: 50%;
+}
+section#black section.top section.left ul li:first-child div{
+	border: 2px solid #ff9900;
+}
+section#black section.top section.left ul li div img{
+	width: 100%;
+	display: block;
+	border-radius: 50%;
+}
+section#black section.top section.right{
+	width: 45%;
+	background: #fdfdfd;
+	padding: 30px;
+	border-radius: 10px;
+}
+section#black section.top section.right h3{
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+section#black section.top section.right form{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+section#black section.top section.right form input{
+	width: 49%;
+	border: 1px solid #f0f0f0;
+	padding: 15px 25px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+section#black section.top section.right form input[type="email"]{
+}
+section#black section.top section.right form input[type="text"]{
+}
+section#black section.top section.right select{
+	width: 49%;
+	border: 1px solid #f0f0f0;
+	padding: 15px 25px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+section#black section.top section.right form input[type="checkbox"]{
+	width: 5%;
+	margin-top: 8px;
+}
+section#black section.top section.right form p{
+	width: 90%;
+}
+section#black section.top section.right form p a{
+	font-weight: 700;
+}
+section#black section.top section.right form p a:hover{
+	text-decoration: underline;
+}
+section#black section.top section.right a.button{
+	background: blue;
+	display: block;
+	font-weight: 700;
+	color: #fff;
+	padding: 15px 25px;
+	border-radius: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+section#black section.bottom{
+	width: 35%;
+}
+section#black section.bottom ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#black section.bottom ul li{
+}
+section#black section.bottom ul li.one{
+}
+section#black section.bottom ul li.two{
+	padding: 10px 0;
+}
+section#black section.bottom ul li.three{
+	padding: 9px 0;
+}
+section#black section.bottom ul li.four{
+	padding: 7px 0;
+}
+section#black section.bottom ul li img{
+	width: 100%;
+	display: block;
+}
+footer{
+	padding: 100px 0;
+}
+footer section.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+footer section.left{
+	width: 25%;
+}
+footer section.left h4{
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 75px;
+}
+footer section.left ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px;
+	width: 100%;
+}
+footer section.left ul li{
+}
+footer section.left ul li div{
+	background: #f0f0f0;
+	padding: 10px;
+	width: 40px;
+	border-radius: 25%;
+}
+footer section.left ul li div.tube{
+	padding: 14px 12px;
+}
+footer section.left ul li div a{
+}
+footer section.left ul li div a img{
+	width: 100%;
+	display: block;
+}
+footer section.left div.bottom{
+	width: 50%;
+}
+footer section.left div.bottom h5{
+	align-items: center;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+footer section.left div.bottom h5 p{
+	font-weight: 700;
+}
+footer section.left div.bottom h5 img{
+	width: 20px;
+}
+footer section.left div.bottom ul{
+	margin-bottom: 0;
+}
+footer section.left div.bottom ul li{
+}
+footer section.right{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+}
+footer section.right div{
+	width: 25%;
+}
+footer section.right div h4{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+footer section.right div ul{
+}
+footer section.right div ul li{
+	margin-bottom: 25px;
+}
+footer section.right div ul li:last-child{
+	margin-bottom: 0;
+}
+footer section.right div ul li a{
+	font-weight: 500;
+}
+footer section.right div ul li a img{
+	width: 20px;
+	margin-right: 10px;
+}
+footer section.right div h4.price{
+	margin: 25px 0 0;
+}
+footer section.right div h4.legal{
+	margin-top: 25px;
+}
+@media all and (max-width:1280px){
+	section#home header nav.left ul li{
+		margin-right: 15px;
+		font-size: 15px;
+	}
+	section#spot section.top section.left form input[type="submit"]{
+		width: 40%;
+	}
+	section#video ul li div.top div.log{
+		top: 58%;
+	}
+	section#video ul li div.top div.play{
+		left: 70%;
+	}
+	section#photo ul li div.top div.logo{
+		top: 45%;
+	}
+	section#market div.star{
+		width: 82%;
+	}
+	section#solutions section.top ul li{
+		margin-bottom: 230px;
+	}
+	section#solutions section.top ul li div.img{
+		top: 82%;
+	}
+	section#solutions section.top ul li a.button{
+		width: 66%;
+		margin-bottom: 100px;
+	}
+	section#solutions a.buttonb{
+		width: 30%;
+	}
+	section#black section.bottom{
+		width: 50%;
+	}
+	footer section.left div.bottom{
+		width: 75%;
+	}
+}
+@media all and (max-width:980px){
+	section#home header nav.left ul{
+		display: none;
+	}
+	section#spot section.top{
+	    flex-wrap: wrap;
+	}
+	section#spot section.top section.left{
+	    width: 100%;
+    	margin-bottom: 50px;
+	}
+	section#spot section.top section.right{
+	    width: 100%;
+	}
+	section#spot section.top section.left form{
+		width: 50%;
+	}
+	section#spot section.top section.left form input[type="submit"]{
+		width: 50%;
+	}
+	section#spot section.bottom ul li{
+		width: 50px;
+	}
+	section#video ul li div.top div.log{
+		top: 45%;
+	}
+	section#video ul li div.top div.play{
+		left: 65%;
+	}
+	section#photo ul li div.top div.logo{
+		top: 35%;
+	}
+	section#market h3{
+		width: 65%;
+	}
+	section#market ul li{
+		width: 49%;
+	}
+	section#market ul hr.line{
+		display: none;
+	}
+	section#market div.star{
+		width: 100%;
+	}
+	section#market div.star a.button{
+		width: 36%;
+	}
+	section#solutions section.top ul li a.button{
+		width: 90%;
+	}
+	section#solutions section.top ul li div.img{
+		top: 88%;
+	}
+	section#solutions section.bottom h3{
+		width: 55%;
+	}
+	section#solutions a.buttonb{
+		width: 40%;
+	}
+	section#black section.bottom{
+		width: 65%;
+	}
+	footer section.left ul li div{
+		width: 35px;
+		margin-right: 10px;
+	}
+	footer section.left div.bottom{
+		width: 90%;
+	}
+}
+@media all and (max-width:768px){
+	section#spot section.top section.left h3{
+		font-size: 40px;
+	}
+	section#spot section.top section.left form input[type="submit"]{
+		left: 85%;
+		width: 60%;
+	}
+	section#spot section.top section.left form input[type="email"]{
+		width: 100%;
+	}
+	section#video ul{
+		flex-wrap: wrap;
+	}
+	section#video ul li{
+		width: 48%;
+	}
+	section#video ul li:last-child{
+		margin: 30px auto 0;
+	}
+	section#video ul li div.top div.log{
+		top: 55%;
+	}
+	section#video ul li div.top div.play{
+		left: 72%;
+	}
+	section#photo ul li div.top div.logo{
+		top: 30%;
+	}
+	section#market h3{
+		width: 100%;
+	}
+	section#market div.star a.button{
+		margin-left: 10px;
+	}
+	section#market div.star{
+		padding: 35px 10px;
+	}
+	section#custom section.content{
+		flex-wrap: wrap;
+	}
+	section#custom section.content section.left {
+    	width: 100%;
+	}
+	section#custom section.content section.right{
+		width: 100%;
+	}
+	section#solutions section.top h3{
+		width: 75%;
+		font-size: 40px;
+	}
+	section#solutions section.top ul{
+		flex-wrap: wrap;
+	}
+	section#solutions section.top ul li.three {
+    margin: 0 auto 230px;
+	}
+	section#solutions section.top ul li{
+		width: 49%;
+	}
+	section#solutions section.top ul li div.img{
+		top: 80%;
+	}
+	section#solutions section.bottom h3{
+		width: 75%;
+		font-size: 40px;
+	}
+	section#black section.top section.left{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	section#black section.top section.right{
+		width: 100%;
+	}
+	section#black section.top{
+		flex-wrap: wrap;
+	}
+	section#black section.bottom{
+		width: 100%;
+	}
+
+	footer section.left{
+		width: 100%;
+	}
+	footer section.right{
+		width: 100%;
+	}
+	footer section.wrapper{
+		flex-wrap: wrap;
+	}
+	footer section.left h4{
+		text-align: center;
+		width: 60%;
+		margin: 0 auto 75px;
+	}
+	footer section.left ul{
+		width: 60%;
+		margin: 0 auto 75px;
+	}
+	footer section.left div.bottom{
+		width: 60%;
+		margin: 0 auto 75px;
+	}
+	footer section.left div.bottom h5{
+		width: 60%;
+		margin: 0 auto 30px;
+	}
+	footer section.left{
+		margin-bottom: 50px;
+	}
+}
+@media all and (max-width:640px){
+	section#spot section.top{
+		flex-wrap: wrap;
+	}
+	section#spot section.top section.left{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	section#spot section.top section.right{
+		width: 100%;
+	}
+	section#home{
+		margin-bottom: 50px;
+	}
+	section#spot section.bottom ul{
+		flex-wrap: wrap;
+	}
+	section#spot section.bottom ul li{
+		width: 80px;
+		margin-right: 10px;
+	}
+	section#spot section.bottom ul li:nth-child(4n){
+		margin-right: 0;
+		padding: 10px 25px;
+	}
+	section#spot section.bottom ul li:nth-child(1){
+		margin-bottom: 30px;
+	}
+	section#spot section.bottom ul li:nth-child(2){
+		margin-bottom: 30px;
+	}
+	section#spot section.bottom ul li:nth-child(3){
+		margin-bottom: 30px;
+	}
+	section#spot section.bottom ul li:nth-child(4){
+		margin-bottom: 20px;
+	}
+	section#custom section.content{
+		flex-wrap: wrap;
+	}
+	section#custom section.content section.left{
+		width: 100%;
+	}
+	section#custom section.content section.right{
+		width: 100%;
+	}
+	section#video h3{
+		width: 100%;
+	}
+	section#video ul{
+		flex-wrap: wrap;
+	}
+	section#video ul li{
+		width: 90%;
+		margin-bottom: 30px;
+	}
+	section#video ul li div.top div.log{
+		top: 65%;
+	}
+	section#video ul li div.top div.play{
+		left: 78%;
+	}
+	section#photo ul{
+		flex-wrap: wrap;
+	}
+	section#photo ul li{
+		width: 99%;
+	}
+	section#photo ul li:first-child{
+		margin-bottom: 40px;
+	}
+	section#photo ul li div.top div.logo{
+		top: 46%;
+	}
+	section#solutions section.top h3{
+		width: 100%;
+	}
+	section#solutions section.top ul li{
+		width: 100%;
+		margin-bottom: 310px;
+	}
+	section#solutions section.top ul li.three{
+		margin-bottom: 310px;
+	}
+	section#solutions section.bottom h3{
+		width: 100%;
+	}
+	section#solutions section.bottom ul{
+		flex-wrap: wrap;
+	}
+	section#solutions section.bottom ul li{
+		width: 48%;
+	}
+	section#solutions section.bottom ul li:last-child{
+		margin: 50px auto 30px;
+	}
+	section#solutions a.buttonb{
+		width: 66%;
+	}
+	footer section.left h4{
+		width: 100%;
+	}
+	footer section.right{
+		flex-wrap: wrap;
+	}
+	footer section.right div{
+		width: 50%;
+		text-align: center;
+	}
+	footer section.right div:nth-child(3){
+		margin-top: 50px;
+	}
+	footer section.right div:nth-child(4){
+		margin-top: 50px;
+	}
+}
+@media all and (max-width:480px){
+	section#home header nav.right ul{
+		display: none;
+	}
+	section#home header h1{
+		margin: 0 auto;
+	}
+	section#home header{
+		margin-bottom: 25px;
+	}
+	section#spot section.top section.left h3{
+		font-size: 30px;
+	}
+	section#spot section.top section.left p{
+		width: 100%;
+		font-size: 15px;
+	}
+	section#spot section.top{
+		margin-bottom: 50px;
+	}
+	section#spot section.bottom ul li{
+		width: 50px;
+	}
+	section#spot section.bottom ul li{
+		width: 50px;
+	}
+	section#spot section.bottom ul li:nth-child(4n){
+		padding: 3px 15px;
+	}
+	section#custom section.content section.left{
+		margin-bottom: 30px;
+	}
+	section#custom section.content section.right h3{
+		font-size: 30px;
+	}
+	section#custom section.content{
+		margin-bottom: 25px;
+	}
+	section#video h3{
+		font-size: 28px;
+	}
+	section#video ul li div.top div.log{
+		top: 51%;
+	}
+	section#video ul li div.top div.play{
+		left: 68%;
+	}
+	section#photo ul li div.top div.logo{
+		top: 34%;
+	}
+	section#market h3{
+		font-size: 29px;
+	}
+	section#market ul li{
+		width: 99%;
+	}
+	section#market div.star{
+		flex-wrap: wrap;
+	}
+	section#market div.star p{
+		width: 100%;
+	}
+	section#market div.star a.button{
+		width: 50%;
+		margin: 10px auto 0;
+	}
+	section#solutions section.top h3{
+		font-size: 29px;
+	}
+	section#market{
+		margin-bottom: 50px;
+	}
+	section#solutions section.top ul li{
+		margin-bottom: 230px;
+	}
+	section#solutions section.top ul li.three{
+		margin-bottom: 200px;
+	}
+	section#solutions section.bottom h3{
+		font-size: 29px;
+	}
+	section#solutions section.bottom ul li{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	section#solutions section.bottom ul li:last-child{
+		margin: 0;
+	}
+	section#solutions a.buttonb{
+		width: 80%;
+		margin: 0 auto;
+	}
+	section#solutions{
+		margin-bottom: 50px;
+	}
+	section#black section.top section.left h3{
+		width: 100%;
+		font-size: 29px;
+	}
+	section#black section.top section.left h5{
+		margin-bottom: 10px;
+	}
+	section#black section.top section.right{
+		padding: 20px 10px;
+	}
+	section#black section.top section.right form p{
+		font-size: 14px;
+	}
+	section#black section.bottom ul{
+		flex-wrap: wrap;
+	}
+	section#black section.bottom ul li{
+		width: 20%;
+	}
+	footer{
+		padding: 50px 0;
+	}
+	footer section.left h4{
+		font-size: 24px;
+		margin-bottom: 40px;
+	}
+	footer section.left ul{
+		width: 80%;
+		margin-bottom: 40px;
+	}
+	footer section.left div.bottom{
+		width: 85%;
+	}
+	footer section.left div.bottom h5{
+		width: 80%;
+	}
+}
+@media all and (max-width:360px){
+}
+@media all and (max-width:320px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
